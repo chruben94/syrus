@@ -2,7 +2,7 @@
   "name": "syrus",
   "version": "1.0.0",
   "description": "",
-  "main": "keys.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/chruben94/syrus/issues"
   },
-  "homepage": "https://github.com/chruben94/syrus#readme"
+  "homepage": "https://github.com/chruben94/syrus#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
+  }
 }
